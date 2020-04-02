@@ -49,7 +49,7 @@ def ReadFemPreg(dct_file='2002FemPreg.dct',
     """
     dct = thinkstats2.ReadStataDct(dct_file)
     df = dct.ReadFixedWidth(dat_file, compression='gzip')
-    CleanFemPreg(df)
+    CleanFemPreg(df
     return df
 
 
